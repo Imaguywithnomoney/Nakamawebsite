@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <title>Sign up</title>    
+    <link rel="stylesheet" href="main2.css">
+    <style>
+    </style>
+    
+
+</head>
+
+<body>
+    <img class="center" src="logoo.png" alt="">
+    <p class="name">ROSALES NATIONAL HIGH SCHOOL -  SHS</p>
+
+<br><div class="wrapper">
+    
+    <h1 style="color:white; text-align: center;" >Sign Up</h1>
+
+<form action="mainpage.html">
+    
+    <label for="Username">Username</label><br>
+    <input type="text" placeholder="  Username" id="Uname" name="Username" value=""required><br><br>
+    
+    <label for="Gmail">Gmail</label><br>
+    <input type="text" placeholder="  example@gmail.com" id="Gmail" name="Gmail" value=""required><br><br>
+    
+    <label for="Date of birth">Date of birth</label><br>
+    <input type="date" placeholder="Date of birth" id="DOB" name="Date of birth" value=""required><br><br>
+    
+    <label>Sex:</label><br>
+    <input type="radio" id="Male" name="fav_language" value="Male"required>
+        <label for="Male">Male</label>
+    
+    <input type="radio" id="Female" name="fav_language" value="Female"required>
+        <label for="Female">Female</label>
+
+    <input type="radio" id="Unknown" name="fav_language" value="Unknown"required>
+        <label for="Unknown">Rather not say</label><br><br>
+    
+    <label for="pword">Password</label><br>
+    <input type="password" placeholder="  Password" id="pword" name="pword" value=""required><br><br>
+    
+    <label for="repword">Re-enter Password</label><br>
+    <input type="password" placeholder="  Confirm Password" id="repword" name="repword" value=""required><br><br>
+        
+    <input type="checkbox" id="accept" name="accept" value="accept"required>
+  <label style="font-size: px;"for="accept">I agree to the Terms & Conditions </label><br>
+        
+    <button type="submit">Sign Up</button>
+    <p style="color: white; text-align: center;">Already have an account?<a href="index.html" style="color: white"> Log In</a></p>
+       
+       
+    <input type="checkbox" id="shwpswrd" name="shwpswrd" onclick="togglepasswordvisibility">
+</form>
+</div>
+
+    
+</body>
+</html>

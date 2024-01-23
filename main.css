@@ -1,0 +1,122 @@
+    body {
+        background-image: url('Background.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: black;
+        min-height: 100vh;
+        
+    }
+    
+    label {
+        color:white;
+    }
+    
+    input {
+        
+    }
+    
+    input[type=text] {
+        backdrop-filter: blur(10px);
+        border-size: 1px;
+        border-radius: 0px;
+        border-color: transparent;
+        width: 300px;
+        Height: 30px;        
+    }
+    
+    input[type=password] {
+        backdrop-filter: blur(10px);
+        border-size: 1px;
+        border-radius: 0px;
+        border-color: transparent;
+        width: 300px;
+        Height: 30px;  
+    }
+    
+    .wrapper {
+        width: 308px;
+        height: 330px;
+        border: 0px solid white;
+        padding: 10px;       
+        border-radius: 50px;
+        backdrop-filter: blur(10px);
+        margin: 0 auto;
+    }
+   
+      
+    form button {
+        width: 309px;
+        Height: 37px;
+        border-radius: 0px;
+        border-color: transparent;
+        background-color: rgb(28, 112, 176);
+        color: white;
+    }
+    
+    ul button {
+        width: 209px;
+        Height: 50px;
+        border-radius: 50px;
+        border-color: transparent;
+        background-color: rgb(28, 112, 176);
+        color: white;
+        float: right;
+    }
+    
+    ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #0;
+          backdrop-filter: blur(10px);
+    }
+
+     li {
+          float: left;
+    }
+
+     
+     li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 18px 25px;
+          text-decoration: none;
+    }
+
+     li a:hover {
+      background-color: #777;
+      backdrop-filter: blur(px);
+     }
+     
+     input[type=date] {
+           backdrop-filter: blur(10px);
+           border-size: 1px;
+           border-radius: 0px;
+           border-color: transparent;
+           width: 302px;
+           Height: 32px;
+     }
+     
+     input[type=checkbox] {
+           float: left;
+           margin: 0 auto;
+     }
+
+
+img.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+}
+
+p.name{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+        <title>Rosales National High School</title>    
+    <link rel="stylesheet" href="main3.css">
+    <script type="text/javascript" src="main3.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+    </style>   
+
+
+</head>
+<body>
+<div id="main">         
+    <div class="topnav">  
+    <a href="#about" onclick="openNav()">About</a>      
+    <a class="active" href="#home">Home</a>    
+    <a href="update.html">News</a>
+    <a href="event.html">Events</a>
+    <a class="logout" href="index.html">Logout</a>   
+    </div>
+
+<div id="main">
+    <div id="mysidenav" class="sidenav">
+ 
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    
+    
+    
+    <img src="logoo.png" alt="logo ng rnhs" width="200" height="200">
+ 
+ 
+    <a class="new_style" style="font-size: 50px;">Rosales</a>  
+    <a class="new_style" style="font-size: 50px;">National</a>
+    <a class="new_style" style="font-size: 50px;">High</a>
+    <a class="new_style" style="font-size: 50px;">School</a>
+    <a class="new_style2" style="font-size: 80px;">SHS</a>
+    
+    <hr>
+    
+    <a href="about.html">About</a>        
+    <a href="mission.html">Objectives</a>
+    <a href="update.html">News/Update</a>
+    <a href="faculties.html">Staffs & Facilities</a>
+ 
+    
+        <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Strands</button>
+        <div id="myDropdown" class="dropdown-content">
+        <a href="abm.html">ABM</a>
+        <a href="gas.html">GAS</a>
+        <a href="humss.html">HUMSS</a>
+        <a href="stem.html">STEM</a>
+        
+        
+        <a href="tvl.html">TVL(3)</a>
+    
+        </div>
+        </div>
+    
+    <hr>
+    <a>Location <i style="font-size:24px" class="fa">&#xf041;</i></a>
+    <video width="200" height="200" controls loop>
+    <source src="1704631630453.mp4" type="video/mp4">
+    </video>
+            
+    </div> 
+    
+</div>
+
+ 
+
+    
+    <img class="center" src="logoo.png" alt="">
+    <p class="name">ROSALES NATIONAL HIGH SCHOOL -  SHS</p>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="1704630585389.jpg" style="width:100%">
+  <div class="text">LOS POLLOS HERMANOS</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="1704630301674.jpeg" style="width:100%">
+  <div class="text">RNHS</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="1704630275060.jpeg" style="width:100%">
+  <div class="text">RNHS</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="1705564471965.jpg" style="width:100%">
+  <div class="text">RNHS</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>  
+</div>
+
+<br>
+
+<div class="wrapper">
+<p class="event">RECENT EVENTS 2024</p>
+
+<h class="facilities">Grade 12 PE Cheerdance</h>
+
+<br><br>
+<img class="centre" src="1705579170936.jpg" style="width:81.6%">
+
+<h class="facilities1">By: Mr.Johnson Sombrito</h>
+
+<p class="event1">EVENT 2024</p>
+</div>
+
+<br><br><br><br><br><br><br><br>
+
+<div class="wrapper2">
+<p class="event">RNHS FACILITIES</p>
+    
+<h class="facilities">Junior High Building</h><br><br>
+<img class="centre" src="1704630645222.jpeg" style="width:81.6%">
+<br><br><br>
+
+<h class="facilities"">RBE Gymnasium</h><br><br>
+<img class="centre" src="1705564513635.jpg" style="width:81.6%">
+<p class="event1">RNHS FACILITIES</p>
+</div>
+
+<br><br><br><br><br><br>
+
+<footer>
+    <br>
+    <img src="logoo.png" alt="" width="50">
+    
+    <p></p>
+    Copyright ©️ 2024 All Rights Reserved By <a href="webdevprof.html" style="color: #818181;">Paul Matthew L. Baculad</a>
+   <br>
+    <i style="font-size:15px" class="fa">&#xf0e0;</i>&nbsp paulmatthew135@gmail.com
+    
+    <br><br><br><br><br>
+    
+  
+</footer>
+
+
+<script>
+    let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+
+</script>
+
+<script>
+
+
+    
+</script>
+
+
+</body>
+</html>
+
