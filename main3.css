@@ -543,7 +543,7 @@ div.humss{
     margin: auto;
     backdrop-filter: blur(10px);
     width: 90%;
-    height: 1800px;
+    height: 2100px;
     border-radius: 30px;
     border: 1px solid;
     border-color: white;
@@ -553,7 +553,7 @@ div.tvl{
     margin: auto;
     backdrop-filter: blur(10px);
     width: 90%;
-    height: 4000px;
+    height: 4500px;
     border-radius: 30px;
     border: 1px solid;
     border-color: white;
@@ -563,7 +563,7 @@ div.abm{
     margin: auto;
     backdrop-filter: blur(10px);
     width: 90%;
-    height: 2000px;
+    height: 2500px;
     border-radius: 30px;
     border: 1px solid;
     border-color: white;
@@ -573,7 +573,7 @@ div.stem{
     margin: auto;
     backdrop-filter: blur(10px);
     width: 90%;
-    height: 2000px;
+    height: 2400px;
     border-radius: 30px;
     border: 1px solid;
     border-color: white;
